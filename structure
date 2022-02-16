@@ -1,0 +1,14 @@
+-Switcher
+
+- App
+--Main (Container)
+---Title
+---DisplayTime
+---Dropdown
+---Textfield(with scrollbar)
+--Main
+- App
+
+(all functions returning divs labelled with classNames the Switcher can reference)
+
+
