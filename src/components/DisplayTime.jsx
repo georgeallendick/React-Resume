@@ -1,6 +1,7 @@
 import React from 'react'
 import { hour, minute } from '../functionality/GetTime'
 import { presentMode } from '../functionality/GetMode'
+import { displayTimeStyle } from '../functionality/Theme'
 
 
 function DisplayTime() {
@@ -33,7 +34,7 @@ function DisplayTime() {
   }
 
   return (
-    <div>
+    <div style={displayTimeStyle}>
     <p>The time is {hours}:{minutes} {meridiem} and this site is currently in {presentMode}, at 5 {nextMeridiem} it will switch to {nextMode}.</p>
     </div>
   );

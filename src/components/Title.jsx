@@ -1,6 +1,6 @@
 import React from 'react'
 import { hour, minute } from '../functionality/GetTime'
-import {titleStyle} from '../functionality/Theme'
+import { titleStyle } from '../functionality/Theme'
 
 
 function Title() {
@@ -13,7 +13,6 @@ function Title() {
   }
   
   let hours = hour;
-
   
   if (hours < 2) {
     title = "React Resume After Dark*";

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { appStyle, mainStyle } from './functionality/Theme'
 import Title from './components/Title'
 import DisplayTime from './components/DisplayTime'
+import Dropdown from './components/Dropdown'
 
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
         <main style={mainStyle}>
           <Title />
           <DisplayTime />
+          <Dropdown />
         </main>
       </div>
     );
